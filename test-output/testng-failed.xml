@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Run on Firefox UI(failed)">
+    <parameter name="browser" value="firefox_ui"/>
+    <classes>
+      <class name="com.nopcommerce.users.Level_04_Register_Login_MultiBrowser">
+        <methods>
+          <include name="LevelTC03_View_MyAccount"/>
+          <include name="afterClass"/>
+          <include name="LevelTC02_Login"/>
+          <include name="LevelTC01_Register"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_04_Register_Login_MultiBrowser -->
+    </classes>
+  </test> <!-- Run on Firefox UI(failed) -->
+  <test thread-count="5" name="Run on Chrome UI(failed)">
+    <parameter name="browser" value="chrome_UI"/>
+    <classes>
+      <class name="com.nopcommerce.users.Level_04_Register_Login_MultiBrowser">
+        <methods>
+          <include name="LevelTC03_View_MyAccount"/>
+          <include name="afterClass"/>
+          <include name="LevelTC02_Login"/>
+          <include name="LevelTC01_Register"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.users.Level_04_Register_Login_MultiBrowser -->
+    </classes>
+  </test> <!-- Run on Chrome UI(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-21T01:53:38Z" name="Suite" finished-at="2021-05-21T01:54:21Z" duration-ms="43299">
+    <groups>
+    </groups>
+    <test started-at="2021-05-21T01:53:38Z" name="Run on Firefox UI" finished-at="2021-05-21T01:54:00Z" duration-ms="22527">
+      <class name="com.nopcommerce.users.Level_04_Register_Login_MultiBrowser">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@52e677af]" started-at="2021-05-21T01:53:38Z" name="beforeClass" finished-at="2021-05-21T01:53:47Z" duration-ms="9681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox_ui]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="LevelTC01_Register()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@52e677af]" started-at="2021-05-21T01:53:47Z" name="LevelTC01_Register" finished-at="2021-05-21T01:53:55Z" duration-ms="7278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LevelTC01_Register -->
+        <test-method signature="LevelTC02_Login()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@52e677af]" started-at="2021-05-21T01:53:55Z" name="LevelTC02_Login" finished-at="2021-05-21T01:53:58Z" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LevelTC02_Login -->
+        <test-method signature="LevelTC03_View_MyAccount()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@52e677af]" started-at="2021-05-21T01:53:58Z" name="LevelTC03_View_MyAccount" finished-at="2021-05-21T01:53:59Z" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LevelTC03_View_MyAccount -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@52e677af]" started-at="2021-05-21T01:53:59Z" name="afterClass" finished-at="2021-05-21T01:54:00Z" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.users.Level_04_Register_Login_MultiBrowser -->
+    </test> <!-- Run on Firefox UI -->
+    <test started-at="2021-05-21T01:54:00Z" name="Run on Chrome UI" finished-at="2021-05-21T01:54:21Z" duration-ms="20741">
+      <class name="com.nopcommerce.users.Level_04_Register_Login_MultiBrowser">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@358c99f5]" started-at="2021-05-21T01:54:00Z" name="beforeClass" finished-at="2021-05-21T01:54:04Z" duration-ms="3818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome_UI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="LevelTC01_Register()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@358c99f5]" started-at="2021-05-21T01:54:04Z" name="LevelTC01_Register" finished-at="2021-05-21T01:54:15Z" duration-ms="10419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LevelTC01_Register -->
+        <test-method signature="LevelTC02_Login()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@358c99f5]" started-at="2021-05-21T01:54:15Z" name="LevelTC02_Login" finished-at="2021-05-21T01:54:19Z" duration-ms="4183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LevelTC02_Login -->
+        <test-method signature="LevelTC03_View_MyAccount()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@358c99f5]" started-at="2021-05-21T01:54:19Z" name="LevelTC03_View_MyAccount" finished-at="2021-05-21T01:54:20Z" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LevelTC03_View_MyAccount -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.users.Level_04_Register_Login_MultiBrowser@358c99f5]" started-at="2021-05-21T01:54:20Z" name="afterClass" finished-at="2021-05-21T01:54:21Z" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.users.Level_04_Register_Login_MultiBrowser -->
+    </test> <!-- Run on Chrome UI -->
+  </suite> <!-- Suite -->
+</testng-results>

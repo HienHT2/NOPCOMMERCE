@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//actions/commons/AbstractPage.java=UTF-8
+encoding//javaCore/automationTestting/Selenium.java=UTF-8
+encoding//javaCore/manualTesting/TFS.java=UTF-8
+encoding//testcases/com/nopcommerce/users/Level_01_Register_Login.java=UTF-8
+encoding//testcases/com/nopcommerce/users/Level_02_Register_Login_AbstractPage_01.java=UTF-8
+encoding//testcases/com/nopcommerce/users/Level_02_Register_Login_AbstractPage_3.java=UTF-8
+encoding//testcases/com/nopcommerce/users/Level_03_Register_Login_Page_Oject.java=UTF-8
+encoding//testcases/com/nopcommerce/users/Level_04_Register_Login_MultiBrowser.java=UTF-8
