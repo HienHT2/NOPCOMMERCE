@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+<listeners>
+	<listeners class-name="commons.MethodListener" />
+</listeners>
+ <test name="Run on Firefox UI">
+  <parameter name="browser" value="firefox_ui"/>
+   <classes>
+       <class name="com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed"/>
+    </classes>
+  </test> 
+  <listeners>
+	<listeners class-name="commons.MethodListener" />
+</listeners>
+ <test name="Run on Chrome UI">
+  <parameter name="browser" value="chrome_UI"/>
+   <classes>
+      <class name="com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed"/>
+    </classes>
+
+  </test>  
+
+</suite> 

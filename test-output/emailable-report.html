@@ -9,18 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Run on Firefox UI</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">22,527</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Run on Chrome UI</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">20,741</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num">43,268</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Run on Firefox UI</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">38,073</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Run on Chrome UI</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">39,899</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">77,972</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Firefox UI &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser</td><td><a href="#m0">LevelTC01_Register</a></td><td rowspan="1">1621562027980</td><td rowspan="1">7278</td></tr><tr class="passedeven"><td><a href="#m1">LevelTC02_Login</a></td><td rowspan="1">1621562035260</td><td rowspan="1">3129</td></tr><tr class="passedeven"><td><a href="#m2">LevelTC03_View_MyAccount</a></td><td rowspan="1">1621562038390</td><td rowspan="1">1235</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Run on Chrome UI &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser</td><td><a href="#m3">LevelTC01_Register</a></td><td rowspan="1">1621562044669</td><td rowspan="1">10419</td></tr><tr class="passedeven"><td><a href="#m4">LevelTC02_Login</a></td><td rowspan="1">1621562055088</td><td rowspan="1">4183</td></tr><tr class="passedeven"><td><a href="#m5">LevelTC03_View_MyAccount</a></td><td rowspan="1">1621562059271</td><td rowspan="1">1714</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Firefox UI &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed</td><td><a href="#m0">LevelTC01_Register</a></td><td rowspan="1">1624002265443</td><td rowspan="1">6620</td></tr><tr class="passedeven"><td><a href="#m1">LevelTC02_Login</a></td><td rowspan="1">1624002272065</td><td rowspan="1">23362</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Run on Chrome UI &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed</td><td><a href="#m2">LevelTC01_Register</a></td><td rowspan="1">1624002300859</td><td rowspan="1">10041</td></tr><tr class="passedeven"><td><a href="#m3">LevelTC02_Login</a></td><td rowspan="1">1624002310903</td><td rowspan="1">24643</td></tr></tbody>
 </table>
-<h2>Run on Firefox UI</h2><h3 id="m0">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser#LevelTC01_Register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser#LevelTC02_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser#LevelTC03_View_MyAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Run on Chrome UI</h2><h3 id="m3">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser#LevelTC01_Register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser#LevelTC02_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.nopcommerce.users.Level_04_Register_Login_MultiBrowser#LevelTC03_View_MyAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Run on Firefox UI</h2><h3 id="m0">com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed#LevelTC01_Register</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Your registration completed....] but found [Your registration completed]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:111)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:123)
+	at com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed.LevelTC01_Register(Level_12_Register_Login_Element_Undispalyed.java:76)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed#LevelTC02_Login</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at commons.AbstractTest.checkFailed(AbstractTest.java:95)
+	at commons.AbstractTest.verifyFalse(AbstractTest.java:105)
+	at com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed.LevelTC02_Login(Level_12_Register_Login_Element_Undispalyed.java:100)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Run on Chrome UI</h2><h3 id="m2">com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed#LevelTC01_Register</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Your registration completed....] but found [Your registration completed]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:111)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:123)
+	at com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed.LevelTC01_Register(Level_12_Register_Login_Element_Undispalyed.java:76)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed#LevelTC02_Login</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at commons.AbstractTest.checkFailed(AbstractTest.java:95)
+	at commons.AbstractTest.verifyFalse(AbstractTest.java:105)
+	at com.nopcommerce.users.Level_12_Register_Login_Element_Undispalyed.LevelTC02_Login(Level_12_Register_Login_Element_Undispalyed.java:100)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

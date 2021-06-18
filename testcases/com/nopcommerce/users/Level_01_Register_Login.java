@@ -36,7 +36,9 @@ public class Level_01_Register_Login{
 		Mail="hoanghien"+getRandomEmail()+"@gmail.com";
 		Company="Cong ty Chưng khoan SSI";
 		Password="123456";
+
 	}
+	
 	@Test
 	public void LevelTC01_Register() {
 		driver.findElement(By.xpath("//a[text()='Register']")).click();

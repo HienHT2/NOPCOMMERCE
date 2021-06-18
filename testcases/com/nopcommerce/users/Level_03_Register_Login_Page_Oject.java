@@ -12,10 +12,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import commons.AbstractPage;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.UserCustomerInfoPO;
+import pageObjects.UserHomePO;
+import pageObjects.UserLoginPO;
+import pageObjects.UserRegisterPO;
 
 /**
  * @author HienHT2
@@ -43,13 +43,13 @@ public class Level_03_Register_Login_Page_Oject extends AbstractPage {
 		Mail="hoanghien"+getRandomEmail()+"@gmail.com";
 		Company="Cong ty Chưng khoan SSI";
 		Password="123456";
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePO(driver);
 	}
 	@Test
 	public void LevelTC01_Register() {
 		homePage.clickToRegisterLink();
 		
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPO(driver);
 		registerPage.clickToGenderMaleRadio();
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
@@ -63,16 +63,16 @@ public class Level_03_Register_Login_Page_Oject extends AbstractPage {
 		registerPage.clickToRegisterButton();
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 		registerPage.clickToLogoutLink();
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePO(driver);
 	}
 	@Test
 	public void LevelTC02_Login() {   
 		homePage.clickToLoginLink();
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPO(driver);
 		loginPage.inputToEmailTextbox(Mail);
 		loginPage.inputToPasswordTextbox(Password);
 		loginPage.clickToLoginButton();
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePO(driver);
 		
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 		Assert.assertTrue(homePage.isLogoutLinkDisplayed());
@@ -81,7 +81,7 @@ public class Level_03_Register_Login_Page_Oject extends AbstractPage {
 	@Test
 	public void LevelTC03_View_MyAccount() {
 		homePage.clickToMyAccounLink();
-		customerInfoPage = new CustomerInfoPageObject(driver);
+		customerInfoPage = new UserCustomerInfoPO(driver);
 		
 		Assert.assertTrue(customerInfoPage.isGenderMaleRadioButtonSelected());
 		
@@ -111,8 +111,8 @@ public class Level_03_Register_Login_Page_Oject extends AbstractPage {
 	public void afterClass() {
 		driver.quit();
 	}
-	HomePageObject homePage;
-    RegisterPageObject registerPage;
-    CustomerInfoPageObject customerInfoPage;
-    LoginPageObject loginPage;
+	UserHomePO homePage;
+    UserRegisterPO registerPage;
+    UserCustomerInfoPO customerInfoPage;
+    UserLoginPO loginPage;
 }

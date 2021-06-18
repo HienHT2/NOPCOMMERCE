@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nopcommerce.users.Level_01_Register_Login">
+      <class name="testNG.Soft_Assert">
         <methods>
           <include name="afterClass"/>
-          <include name="View_MyAccount"/>
           <include name="beforeClass"/>
+          <include name="TC_01_Login_Empty_Email_Password"/>
         </methods>
-      </class> <!-- com.nopcommerce.users.Level_01_Register_Login -->
+      </class> <!-- testNG.Soft_Assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

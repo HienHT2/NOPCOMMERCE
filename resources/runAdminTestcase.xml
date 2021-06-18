@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<test name="Run on Firefox UI">
+  <parameter name="browser" value="firefox_ui"/>
+  <parameter name="url" value="https://admin-demo.nopcommerce.com/"/>
+   <classes>
+      <class name="com.nopcommerce.admin.Level_10_Upload_File"/>
+    </classes>
+  
+ </test> 
+  <test name="Run on Chrome UI">
+  <parameter name="browser" value="chrome_UI"/>
+  <parameter name="url" value="https://admin-demo.nopcommerce.com/"/>
+   <classes>
+      <class name="com.nopcommerce.admin.Level_10_Upload_File"/>
+    </classes>
+  
+   
+  </test>  -->
+</suite> 
